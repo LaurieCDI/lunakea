@@ -1,0 +1,11 @@
+{
+    "attributes": {
+        "integrity": {
+            "context": "link"
+        },
+        "crossorigin": {
+            "context": "link"
+        }
+    },
+    "elements": {}
+}
