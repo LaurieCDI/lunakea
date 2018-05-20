@@ -1,0 +1,128 @@
+
+.button {
+    background-color: #ffe718;
+    border: 2px solid #ffe718;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor : pointer;
+}
+
+.buttonP {
+    background-color: #ffe718;
+    border: 2px solid #bbbbbb;
+    border-radius: 12px;
+    color: black;
+    padding: 12px 28px;
+    width: 70%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.button:hover {
+    background-color: white; 
+    color: black;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.spanProduct {
+    display: block;
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    border: 3px solid #bbbbbb;
+    padding: 10px;
+}
+
+.left {
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    border: 3px solid #bbbbbb;
+    padding: 10px;
+}
+
+.rcorners1 {
+    border-radius: 25px;
+    background: #be6262;
+    padding: 20px; 
+    width: 80%;   
+}
+
+.rconers2 {
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 20px;
+    width: 70%;
+}
+
+.tableResult {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableResult th, 
+.tableResult td {
+    text-align: left;
+    padding: 8px;
+}
+
+.tableResult tr:nth-child(even) {background-color: #f1f1f1;}
+
+.tableResult tr:hover td{
+	background-color: #bbbbbb;
+}
+
+/* INFORMATION DIALOG */
+.dialog-information.ui-dialog .ui-dialog-content {
+    min-height: 30px !important;
+    padding-left: 35px;
+    background-color: #fff9ca;
+}
+
+/* ERROR DIALOG */
+.dialog-error.ui-dialog .ui-dialog-content {
+    min-height: 30px !important;
+    padding-left: 35px;
+    background-color: #fff9ca;
+}
+
+/* WAITING DIALOG */
+.dialog-waiting.ui-dialog .ui-dialog-titlebar {
+    display: none;
+}
+
+.dialog-waiting.ui-dialog .ui-dialog-content {
+    text-align: center;
+    padding-top: 50px;
+    background-color: #fff9ca;
+}
+
+/* SUCCESS DIALOG */
+.dialog-success.ui-dialog .ui-dialog-titlebar {
+    display: none;
+}
+
+.dialog-success.ui-dialog .ui-dialog-content {
+    text-align: center;
+    padding-top: 50px;
+    background-color: #fff9ca;
+}
+
+.searchContent .search-form input#keywords{
+	width: 200px;
+}
+
